@@ -3,6 +3,7 @@
 include_once './tax.class.php';
 
 class Employee {
+
     protected $name = '';
     protected $age = 0;
     protected $child = 0;

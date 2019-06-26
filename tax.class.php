@@ -9,7 +9,7 @@ abstract class Tax {
 
     function __construct() {
         $this->percent = 0;
-        $this->deduct= 0;
+        $this->deduct = 0;
     }
 
     public function getPercent() {
@@ -29,11 +29,12 @@ class TaxPercent extends Tax {
 
 class TaxDeduct extends Tax {
     function __construct($deduct) {
-        $this->deduct= $deduct;
+        $this->deduct = $deduct;
     }
 }
 
 class TaxRules {
+
     protected $rules = [];
 
     public function getRules() {
