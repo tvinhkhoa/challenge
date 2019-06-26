@@ -1,4 +1,4 @@
-# Excercise
+# Challenge
 
 ## Setup
 
