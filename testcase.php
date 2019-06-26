@@ -149,7 +149,7 @@ class EmployeeTest extends TestCase {
         $this->employee->useCar = true;
         $this->employee->getSalaryAfterTax();
 
-        $this->assertEquals(5300, $this->employee->getSalaryDeductUseCar());
+        $this->assertEquals(4300, $this->employee->getSalaryDeductUseCar());
     }
 
     /**
@@ -163,7 +163,7 @@ class EmployeeTest extends TestCase {
         $this->employee->useCar = true;
         $this->employee->getSalaryAfterTax();
 
-        $this->assertEquals(5720, $this->employee->getSalaryDeductUseCar());
+        $this->assertEquals(4720, $this->employee->getSalaryDeductUseCar());
     }
 
     /**
@@ -177,7 +177,7 @@ class EmployeeTest extends TestCase {
         $this->employee->useCar = true;
         $this->employee->getSalaryAfterTax();
 
-        $this->assertEquals(5420, $this->employee->getSalaryDeductUseCar());
+        $this->assertEquals(4420, $this->employee->getSalaryDeductUseCar());
     }
 
     /**
@@ -191,7 +191,7 @@ class EmployeeTest extends TestCase {
         $this->employee->useCar = true;
         $this->employee->getSalaryAfterTax();
 
-        $this->assertEquals(5840, $this->employee->getSalaryDeductUseCar());
+        $this->assertEquals(4840, $this->employee->getSalaryDeductUseCar());
     }
 }
 

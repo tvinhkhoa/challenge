@@ -73,7 +73,7 @@ class Employee {
 
     public function getSalaryDeductUseCar() {
         if ($this->useCar) {
-            $this->salary = $this->salary + DEDUCT;
+            $this->salary = $this->salary - DEDUCT;
         }
         return $this->salary;
     }
